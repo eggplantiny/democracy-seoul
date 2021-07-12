@@ -1,4 +1,4 @@
-import * as express from 'express'
+import express from 'express'
 import routes from './routes/index'
 require('dotenv').config()
 
@@ -18,7 +18,7 @@ class App {
   }
 
   public start (): void {
-    this.app.listen(port,() => console.log(`Application running on ${host}:${port}`));
+    this.app.listen(port, () => console.log(`Application running on ${host}:${port}`));
   }
 }
 

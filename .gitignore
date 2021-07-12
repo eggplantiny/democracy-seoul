@@ -7,6 +7,6 @@
 /test.*.json
 
 *.log
-.env
+/.env
 
-.idea
+/.idea
