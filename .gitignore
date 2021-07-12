@@ -1,0 +1,12 @@
+/node_modules
+/dist
+/temp
+
+/*.html
+/save.*.json
+/test.*.json
+
+*.log
+.env
+
+.idea

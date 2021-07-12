@@ -1,0 +1,36 @@
+{
+  "name": "democracy-seoul",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "build": "tsc",
+    "serve": "ts-node ./src/app.ts",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eggplantiny/democracy-seoul.git"
+  },
+  "author": "eggplantiny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eggplantiny/democracy-seoul/issues"
+  },
+  "homepage": "https://github.com/eggplantiny/democracy-seoul#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jest": "^26.0.23",
+    "supertest": "^6.1.3",
+    "ts-jest": "^27.0.2",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1"
+  }
+}
