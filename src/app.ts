@@ -1,6 +1,6 @@
-import express from 'express'
-import routes from './routes/index'
-require('dotenv').config()
+import express from 'express';
+import routes from './routes/index';
+require('dotenv').config();
 
 const port = process.env.APP_PORT;
 const host = process.env.APP_HOST;

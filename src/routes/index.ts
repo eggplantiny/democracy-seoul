@@ -1,4 +1,4 @@
-import hello from './modules/hello'
+import hello from './modules/democracy'
 import { IRoute } from '../types'
 
 const routes: IRoute[] = [
